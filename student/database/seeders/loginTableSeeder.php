@@ -18,8 +18,7 @@ class loginTableSeeder extends Seeder
         User::create([
             'name' => 'John Smith',
             'email' => 'santhosh@gmail.com',
-            'password' =>\Hash::make('password'),
-            
+            'password' =>\Hash::make('password'),  
         ]);
        
     }

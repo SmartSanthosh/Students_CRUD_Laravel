@@ -25,6 +25,8 @@ class CreateStudentTable extends Migration
             $table->string('phono',15)->nullable();
             $table->string('address',255)->nullable();
             $table->string('image',45)->nullable();
+            $table->string('Book',45)->nullable();
+
             $table->timestamps();
             $table->timestamp('deleted_at')->nullable();
         });
